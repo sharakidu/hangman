@@ -76,7 +76,7 @@ def open_letter(letter, hidden_word, word):
     for index in range(len(word)):
         if letter == word[index]:
             hidden_word[index] = letter
-            return hidden_word
+    return hidden_word
                     
       
       
